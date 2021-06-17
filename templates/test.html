@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>我的一个网页</title>
+</head>
+<body>
+    <h1>我的一个标题</h1>
+    <hr>
+    <p>我的一个段落</p>
+    <hr/>
+    <p>{{ hello }}</p>
+
+    <p>这个<br>显示了<br>分行的效果</p>
+<br/>
+    <a href="www.baidu.com">this is a website</a>
+
+    {% load static %}
+    <img src="{% static 'images/img.png' %}" width="200", height="300" alt="为www">
+
+    <canvas id="my" width="200" height="200" style="border: 1px solid #000;"></canvas>
+    
+</body>
+</html>
